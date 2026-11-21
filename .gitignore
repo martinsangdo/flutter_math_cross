@@ -128,3 +128,8 @@ app.*.symbols
 .DS_Store
 screenshots/
 flutter-game-prompt-template.md
+# App lockfiles are versioned for reproducible builds.
+!pubspec.lock
+!ios/Podfile.lock
+.idea/
+*.iml
